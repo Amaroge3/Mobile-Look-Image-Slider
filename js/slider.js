@@ -24,5 +24,16 @@ var $slider = $("#slider");
 			$slider.children().first().before($slider.children().last());
 			$slider.children().first().fadeIn();
 	});
-	
+
+changeToPointerOnButtons();	
 };
+/* changes the cursor of the left and right buttons to a pointer when hovering
+over the elements */
+function changeToPointerOnButtons(){
+$('#arrowLeft, #arrowRight').hover(function() {
+	$(this).css('cursor', 'pointer');
+}, function() {
+	$(this).css('cursor', 'auto');
+});
+
+}
