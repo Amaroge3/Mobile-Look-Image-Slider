@@ -1,11 +1,12 @@
+/* image positioning and size */
 #slider img{
 	width: 400px;
 	height: 250px;
-text-align: center;
+	text-align: center;
 }
 
 
-
+/* slider div */
 #slider{
 	padding: 0;
 	background-color: gray;
@@ -13,17 +14,19 @@ text-align: center;
 	border-radius: 5px 5px 5px 5px;
 }
 
+
+/* controls of the slider */
 #controls{
 	margin-top: 50px;
 	text-align: center;
 }
 
 #slide{
-
-
 text-align: center;
 }
 
+
+/* left arrow that takes the user to the previous image */
 #arrowLeft{
 width: 30px;
 height: 30px;
@@ -37,9 +40,9 @@ background-color: black;
 display: inline-block;
 
 }
+
+/* left arrow that takes the user to the previous image */
 #arrowRight{
-
-
 width: 30px;
 height: 30px;
 padding-top: 110px;
@@ -51,6 +54,7 @@ border-bottom-right-radius: 10px;
 display: inline-block;  
 background-color: black;
 }
+
 #sliderbox{
 	display: flex;
 	margin: 0;
